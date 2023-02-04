@@ -19,6 +19,7 @@ By changing the values used different images could be produced.
 I then generated two datasets of 10,000 images that were each simulated with different values for each image.
 One dataset of images 28x28 in resolution and another of 72x72 in resolution.
 The main idea was to use the lower resolution dataset for testing as training times would be less, and then the changes can be tested on the higher resolution dataset so that higher quality images can be generated.
+The simulated images were .jpg images, I created a program to convert these images to .npy files which can be processed much faster.
 ## GAN selection
 I knew that I would first develop a FCGAN because this would be the easiest to implement, but would not produce the best results.
 Once a working FCGAN had been produced the knowledge gained would help me to develop a more complex GAN that would generate better quality images.
