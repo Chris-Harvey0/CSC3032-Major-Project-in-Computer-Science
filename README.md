@@ -56,3 +56,12 @@ This is done for thousands of training images and thousands of generated images.
 The FID value can then be computed which represents how far the generated images are from the training images.
 A FID score of zero means that the training images and the generated images are exactlty the same.
 The calculated FID scores were 5-10x smaller for the DCGAN models which shows that they are generating much higher quality images.
+## Reflection
+Overall this project was a success because a GAN was produced that can generate images similar in quality to the training images.
+The generated images were of a still relatively low resolution of 72x72 so future work could look at generating higher resolution images.
+This would likely require more than the 10,000 training images that I used for training and would require more time to train the models.
+Alternative GAN architectures could also be the topic of a future project.
+Of the alternatives I outlined in the final report I think the most promising would be to make use of NVIDIA's StyleGAN for transfer learning.
+StyleGAN is capable of generating high-quality high-resolution images so a transfer learning approach may allow for the same results but for this dataset.
+
+This project allowed me to increase my knowledge of machine learning specifically with image generation as well as data science methods that were needed to process the large amount of training data.
